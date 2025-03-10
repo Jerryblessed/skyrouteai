@@ -49,6 +49,10 @@ SkyRoute AI processes flight and airport data using graph-based network analysis
 
 The dataset is sourced from [ArangoDB Example Datasets](https://github.com/arangodb/example-datasets/tree/master/Data%20Loader).
 
+## ⚠️ Security Notice
+
+We have intentionally left API keys and database credentials in the code for demonstration purposes. However, in a production environment, sensitive information should be securely stored using environment variables or secret management tools.
+
 ## 🚫 Challenges we ran into
 
 - Optimizing large-scale graph processing efficiently with GPU acceleration.
